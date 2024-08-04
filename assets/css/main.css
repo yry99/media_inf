@@ -853,9 +853,6 @@ section,
   font-size: 22px;
 }
 
-.hero_icons_container img {
-  /* width: 50%; */
-}
 
 .hero-color {
   color: var(--btn-color);
@@ -1363,6 +1360,7 @@ div.submit button {
 --------------------------------------------------------------*/
 .bg-box {
   text-align: center;
+  padding: 1rem;
 }
 
 .bg-box h2 {
@@ -1410,12 +1408,41 @@ div.submit button {
 
 
 @media (max-width:600px) {
+  .hero p {
+    font-size: 20px !important;
+  }
+
+  .sub_hero_txt {
+    font-size: 18px !important;
+  }
+
+  .bg-whatever {
+    padding-top: 1rem;
+  }
+
+  .bg-media {
+    height: auto;
+  }
+
+  .stats h3 {
+    font-size: 22px;
+  }
+
+  section.services_offered div.container-fluid div.row div.bg-whatever {
+    font-size: 18px;
+  }
+
   footer.footer .container .row .line {
     width: 70%;
     height: 1px;
     background: linear-gradient(var(--background-color), var(--btn-color));
     margin-top: 1.8%;
     margin-left: 4.2%;
+  }
+
+  .stats .bg-whatever #why_sec_img {
+    width: 20%;
+    margin-bottom: 1rem;
   }
 }
 
@@ -1450,6 +1477,7 @@ footer.footer .container .row .about_us_section_header p:after,
 .footer.footer .row .footer_links ul a {
   color: var(--background-color);
 }
-.about_us_right_block_body_container img{
+
+.about_us_right_block_body_container img {
   width: 100%;
 }
