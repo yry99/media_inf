@@ -1415,8 +1415,11 @@ div.submit button {
     font-size: 20px !important;
   }
 
-  .sub_hero_txt {
+  .hero_para{
     font-size: 18px !important;
+  }
+  .sub_hero_txt {
+    font-size: 16px !important;
   }
 
   .bg-whatever {
