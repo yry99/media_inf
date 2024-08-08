@@ -1412,7 +1412,7 @@ div.submit button {
 
 @media (max-width:600px) {
   .hero p {
-    font-size: 20px !important;
+    /* font-size: 20px !important; */
   }
 
   .hero_para{
