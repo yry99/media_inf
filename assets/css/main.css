@@ -979,9 +979,10 @@ section,
 
 
 @media (max-width:600px) {
-  .hero{
+  .hero {
     padding: 26px 0;
   }
+
   #hero>div>div>div.col-lg-6.order-2.order-lg-1.d-flex.flex-column.justify-content-center>div.col-lg-8.d-flex.flex-column.justify-content-center.aos-init.aos-animate>div>img {
     width: 8%;
   }
@@ -1305,6 +1306,11 @@ div.submit button {
 }
 
 @media (max-width:600px) {
+  .img-fluid {
+    height: 90%;
+    width: 100%;
+  }
+
   .bg-box {
     padding: 2rem;
   }
@@ -1406,10 +1412,5 @@ footer.footer .container .row .about_us_section_header p:after,
 }
 
 .about_us_right_block_body_container img {
-  width: 100%;
-}
-
-.img-fluid{
-  height: 90%;
   width: 100%;
 }
