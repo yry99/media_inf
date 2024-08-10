@@ -319,7 +319,7 @@ h6 {
     margin: 0 15px 0 0;
     padding: 6px 20px;
     margin-bottom: 1rem;
-    
+
   }
 
   .header .navmenu {
@@ -486,7 +486,7 @@ h6 {
     list-style: none;
     display: none;
     position: absolute;
-    inset: 48px 20px 100px 20px;
+    /* inset: 48px 20px 100px 20px; */
     padding: 1rem;
     margin: 0;
     border-radius: 6px;
@@ -496,7 +496,15 @@ h6 {
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
+    transform: translate(50%, 50%);
+    height: auto;
+    width: 50%;
+    /* display: flex !important; */
+    /* flex-flow: column; */
+    /* justify-content: center; */
   }
+
+
 
   .navmenu a,
   .navmenu a:focus {
@@ -932,7 +940,7 @@ section,
   .hero p {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
   }
 
   .hero .btn-get-started,
@@ -1107,6 +1115,43 @@ section,
   /* line-break: anywhere; */
 }
 
+
+@media (max-width:600px) {
+  .hero{
+    padding: 26px 0;
+  }
+  #hero>div>div>div.col-lg-6.order-2.order-lg-1.d-flex.flex-column.justify-content-center>div.col-lg-8.d-flex.flex-column.justify-content-center.aos-init.aos-animate>div>img {
+    width: 8%;
+  }
+
+  .stats h2 {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .stats_head {
+    font-size: 54px !important;
+  }
+
+  .bg-whatever p {
+    font-size: 16px;
+  }
+
+  #stats>div.container.position-relative>div>div>p {
+    font-size: 18px !important;
+  }
+
+  #services>div.container.position-relative>div>div>p {
+    font-size: 18px !important;
+
+  }
+
+  .contact_form .contact_form_header p {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
 .stats h3 {
   font-size: 36px;
   color: var(--btn-color);
@@ -1142,6 +1187,16 @@ section,
   /* border-width: 10px; */
   /* border-image: linear-gradient(red,blue)  27 23 / 50px 30px / 1rem round space; */
   /* border-image: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)) 1; */
+}
+
+.stats .bg-whatever .why_sec_img {
+  width: 40% !important;
+}
+
+@media (max-width:600px) {
+  .stats .bg-whatever .why_sec_img {
+    width: 28% !important;
+  }
 }
 
 .stats .bg-whatever #why_sec_img {
@@ -1266,6 +1321,10 @@ section,
   font-size: 20px;
   font-weight: bold;
   font-family: var(--header-font);
+}
+
+.bg-media img {
+  margin-bottom: 8px;
 }
 
 /*--------------------------------------------------------------
@@ -1415,9 +1474,10 @@ div.submit button {
     /* font-size: 20px !important; */
   }
 
-  .hero_para{
+  .hero_para {
     font-size: 18px !important;
   }
+
   .sub_hero_txt {
     font-size: 16px !important;
   }
@@ -1428,6 +1488,7 @@ div.submit button {
 
   .bg-media {
     height: auto;
+    font-size: 16px !important;
   }
 
   .stats h3 {
